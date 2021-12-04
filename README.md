@@ -36,7 +36,7 @@ sublime과 emacs를 vim으로 치환하는 문제
 
 
 var 안에 주석 Version TODO와 Debug TODO 삽입
-+ 총 타수 : 34
++ 총 타수 : 34 (어떻게 20을..?)
 + WriteUP
 1. 4G - 4번째 행으로 이동
 2. yw - 커서가 있는 단어를 복사(Version)
