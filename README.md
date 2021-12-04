@@ -62,5 +62,5 @@ var 안에 주석 Version TODO와 Debug TODO 삽입
 |Before|After|
 |---|---|
 |y1|abs(y1~y4)|
-|2,3,4행 lw값|'b','r','g'|
+|3,4,5행 lw값|'b','r','g'|
 |line #1|line #1~#4|
