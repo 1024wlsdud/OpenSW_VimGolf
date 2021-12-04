@@ -54,3 +54,13 @@ var 안에 주석 Version TODO와 Debug TODO 삽입
 14. p - yw로 복사한 단어 붙여넣기
 15. a TODO - 커서 뒤에 입력모드 변환 후 TODO입력
 
+
+**4번**
+![image](https://user-images.githubusercontent.com/43934522/144706317-93bce532-b92a-4e6b-b337-f82bf638b214.png)
+
+
+|Before|After|
+|---|---|
+|y1|abs(y1~y4)|
+|2,3,4행 lw값|'b','r','g'|
+|line #1|line #1~#4|
