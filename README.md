@@ -57,7 +57,7 @@ var 안에 주석 Version TODO와 Debug TODO 삽입
 
 **4번**
 ![image](https://user-images.githubusercontent.com/43934522/144706317-93bce532-b92a-4e6b-b337-f82bf638b214.png)
-![4번](https://user-images.githubusercontent.com/43934522/144720144-41df3791-d23b-4811-a9df-ae455d3eba0d.gif)
+![4번 솔루션](https://user-images.githubusercontent.com/43934522/144720144-41df3791-d23b-4811-a9df-ae455d3eba0d.gif)
 
 
 |Before|After|
@@ -82,3 +82,15 @@ var 안에 주석 Version TODO와 Debug TODO 삽입
 12. ESC - 명령모드로 변경
 13. /# - #뒤에 있는 숫자를 변경하기 위해 #를 검색
 14. a - #앞으로 커서 이동 후 입력모드로 변경 후, 2, 3, 4를 작성
+
+
+**5번**
+![5번 솔루션](https://user-images.githubusercontent.com/43934522/144721416-e87a48d4-078a-4665-8ff9-3e6e3453bd0c.gif)
++ 총 타수 : 27
++ WriteUP
+1. 5G - 5번 째 행 이동
+2. yw - student_id 복사
+3. /" - "검색
+4. p - 복사한 내용 붙여넣기
+5. a - 커서 앞으로 입력모드 변경 후, name, age, score작성 
+6. ESC 누른 후, ZZ로 빠져나가기 
