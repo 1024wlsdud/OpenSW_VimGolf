@@ -57,6 +57,7 @@ var 안에 주석 Version TODO와 Debug TODO 삽입
 
 **4번**
 ![image](https://user-images.githubusercontent.com/43934522/144706317-93bce532-b92a-4e6b-b337-f82bf638b214.png)
+![4번](https://user-images.githubusercontent.com/43934522/144720144-41df3791-d23b-4811-a9df-ae455d3eba0d.gif)
 
 
 |Before|After|
@@ -64,3 +65,19 @@ var 안에 주석 Version TODO와 Debug TODO 삽입
 |y1|abs(y1~y4)|
 |3,4,5행 lw값|'b','r','g'|
 |line #1|line #1~#4|
+
++ 총 타수 : 57
++ WriteUP
+1. /y - y를 abs(y~)형태로 바꾸기 위해선 y위치를 찾아야 함. /y를 통해 y의 위치를 찾음
+2. Enter - Enter로 해당 y위치에 커서 이동
+3. cw - y를 지우고 abs(y1) 작성
+4. ESC - 명령모드로 변경
+5. N - N으로 맨처음 명령모드에서 y를 검색했던걸 재검색
+6. . - .으로 3번(cw~)실행
+7. 5~6번을 반복 실행한 후 만들어진 4개의 abs(y1)를 편집모드로 들어가 2, 3, 4 로 변경
+8. ESC - 명령모드로 변경
+9. /k - k의 위치 찾은 후 ENTER로 커서 이동
+10. s - 해당 단어를 지우고, 입력모드로 변경
+11. 방향키와 벡스페이스바 키를 이용해 k를 b, r, g를 작성
+12. ESC - 명령모드로 변경
+13. 
