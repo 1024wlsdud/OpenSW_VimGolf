@@ -30,3 +30,27 @@ sublime과 emacs를 vim으로 치환하는 문제
 + WriteUP
 1. :%s/sublime|emacs/vim/g => sublime 또는 emacs를 vim으로 교체, g는 라인 여러개 치환 
 2. ZZ로 저장 후 나가기 
+
+**3번**
+![3번](https://user-images.githubusercontent.com/43934522/144706269-97ce5597-ae65-4e50-9a17-985dc2441c16.gif)
+
+
+var 안에 주석 Version TODO와 Debug TODO 삽입
++ 총 타수 : 34
++ WriteUP
+1. 4G - 4번째 행으로 이동
+2. yw - 커서가 있는 단어를 복사(Version)
+3. O - 커서가 있는 라인을 한 줄 내리고 입력모드로 변환
+4. // 입력 후 스페이스바로 공백 만듦
+5. ESC - 명령모드 변환
+6. p - yw로 복사한 단어 붙여넣기
+7. a TODO - 커서 뒤에 입력모드 변환 후 TODO입력
+8. ESC - 명령모드 변환
+9. 6G - 6번째 행 이동
+10. yw - 커서가 있는 단어 복사(Debug)
+11. O - 커서가 있는 라인을 한 줄 내리고 입력모드로 변환
+12. // 입력 후 스페이스바로 공백 만듦
+13. ESC - 명령모드 변환
+14. p - yw로 복사한 단어 붙여넣기
+15. a TODO - 커서 뒤에 입력모드 변환 후 TODO입력
+
